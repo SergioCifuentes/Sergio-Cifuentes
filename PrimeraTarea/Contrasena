@@ -1,0 +1,25 @@
+Inicio Contrasena
+	texto = contrasenaEstablecida= "IPC1"
+	texto = contrasenaIngresada=""
+	var = contadorFallas = 0
+	var = bandera= Falso
+	Mientras contadorFallas<=3 y bandera=Falso  Hacer
+		Escribir "Ingrese la contrasena"
+		leer contrasenaIngresada
+		escribir contrasenaIngresada
+		Si contrasenaEstablecida==contrasenaIngresada Entonces
+			bandera= Verdadero
+			Escribir "Contrasena Correcta"
+		SiNo
+			Escribir "contrasena Incorrecta"
+			contadorFallas=contadorFallas+1
+		Fin Si
+		
+	Fin Mientras
+	Si contadorFallas>=3 Entonces
+		Escribir "Ya no tienes Oportunidades"
+	
+	Fin Si
+	
+Fin
+

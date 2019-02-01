@@ -1,0 +1,16 @@
+Inicio DiezNumeros
+	var =suma = 0
+	var = numeroA = 0
+	var = promedio=0
+	var= comodin=0
+	Mientras comodin<10 Hacer
+		comodin=comodin+1
+		Escribir "ingrese un numero"
+		leer numeroA
+		suma = suma + numeroA
+	Fin Mientras
+	promedio= suma /10
+	Escribir "la suma es " suma
+	Escribir "el promedio es " promedio
+Fin
+

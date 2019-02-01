@@ -1,0 +1,13 @@
+Inicio ContadorDeNumeros 
+	var = numeroIngresado=0
+	var= contador=0
+	Escribir "Ingrese un Numero"
+	leer numeroIngresado
+	Mientras contador < numeroIngresado Hacer
+		Escribir contador
+		contador=contador+2
+	Fin Mientras
+	Escribir numeroIngresado
+	
+Fin
+

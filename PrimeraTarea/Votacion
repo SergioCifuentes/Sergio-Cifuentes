@@ -1,0 +1,20 @@
+Inicio Votacion
+	var = edad
+	texto = genero 
+	Escribir "Ingrese su edad"
+	leer edad
+	Escribir "Ingrese Masculino (m) o Femenino (f)"
+	leer genero
+	Si edad >= 18 Entonces
+		Escribir "Usted Puede Votar"
+	SiNo
+		Escribir "Usted no puede Votar"
+		
+	Fin Si
+	Si genero == "m" Entonces
+		Escribir "Y Usted es Masculino"
+	SiNo
+		Escribir "Y Usted es Femenino"
+	Fin Si
+Fin
+

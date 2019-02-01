@@ -1,0 +1,13 @@
+Inicio Triangulo
+	var = base
+	var = altura
+	var = area
+	Escribir "Ingrese la base del triangulo (mts)"
+	leer base
+	Escribir "Ingrese la altura del triangulo (mts)"
+	leer altura
+	area = 1/2*base*altura
+	Escribir "el area es:" area
+	
+Fin
+
